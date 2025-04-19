@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAK Services - Gallery</title>
+    <!-- Link to the CSS file -->
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container flex-between">
+            <a href="gallery.html" class="logo">
+                <img src="Layer-1.png" alt="IMAK Logo" class="logo-image">
+                <span>IMAK <span class="gold-text">Gallery</span></span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Back to Home Link -->
+    <a href="index.html" class="back-to-home">Back to Home</a>
+
+    <!-- Gallery Section -->
+    <section class="section gallery">
+        <div class="container">
+            <h2 class="section-title">Our <span class="gold-text">Gallery</span></h2>
+            <p class="section-subtitle">Explore our projects through images and videos showcasing our expertise.</p>
+            <div class="gallery-grid">
+                <!-- Image with Caption -->
+                <div class="gallery-item">
+                    <img src="basement.jpg" alt="Project Image 1">
+                    <p class="gallery-caption">living area</p>
+                </div>
+
+               
+
+                <!-- Image with Caption -->
+                <div class="gallery-item">
+                    <img src="/bathroom 2.jpg" alt="Project Image 2">
+                    <p class="gallery-caption">bathroom</p>
+                </div>
+
+               
+                <!-- New Image Platforms -->
+                <div class="gallery-item">
+                    <img src="/bathroom 3.jpg" alt="Project Image 3">
+                    <p class="gallery-caption">bathroom</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="bathroom 4.jpg" alt="Project Image 4">
+                    <p class="gallery-caption">bathroom</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="cabinet 1.jpg" alt="Project Image 5">
+                    <p class="gallery-caption">Refurbished Kitchen</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="cabinet 3.jpg" alt="Project Image 6">
+                    <p class="gallery-caption">Refurbished Kitchen</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="cabinet 4.jpg" alt="Project Image 7">
+                    <p class="gallery-caption">Refurbished Kitchen</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="room 3.jpg" alt="Project Image 8">
+                    <p class="gallery-caption"></p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="hallway 2.jpg" alt="Project Image 9">
+                    <p class="gallery-caption">living area</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="toilet 1.jpg" alt="Project Image 10">
+                    <p class="gallery-caption">commercial bathroom service</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="toilet 2.jpg" alt="Project Image 11">
+                    <p class="gallery-caption">commercial bathroom service</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="toilet 3.jpg" alt="Project Image 12">
+                    <p class="gallery-caption">commercial bathroom service</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="toilet 5.jpg" alt="Project Image 13">
+                    <p class="gallery-caption">commercial bathroom service</p>
+                </div>
+
+                <div class="gallery-item">
+                    <img src="toilet 6.jpg" alt="Project Image 14">
+                    <p class="gallery-caption"></p>
+                </div>
+
+                <div class="gallery-item">
+                    <video controls>
+                        <source src="your-video-file.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p class="gallery-caption">a walk through of a newly refurbished house</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our <span class="gold-text">Clients Say</span></h2>
+            <p class="section-subtitle">Hear from our satisfied clients about their experiences with us.</p>
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"IMAK Services transformed our home into a dream space. Their attention to detail and professionalism were outstanding!"</p>
+                    <h4 class="testimonial-author">- John Doe</h4>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"The team at IMAK Services exceeded our expectations. Our office renovation was completed on time and within budget."</p>
+                    <h4 class="testimonial-author">- Jane Smith</h4>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="testimonial-item">
+                    <p class="testimonial-text">"We couldn't be happier with the interior design services provided by IMAK. They truly brought our vision to life."</p>
+                    <h4 class="testimonial-author">- Sarah Johnson</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 IMAK Services. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script>
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const navLinks = document.getElementById('nav-links');
+
+        mobileMenuBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
