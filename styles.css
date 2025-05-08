@@ -1,3 +1,7 @@
+:root {
+    --gold: #F57C00; /* Updated gold color */
+}
+
 /* General Styles */
 body {
     background-color: #000;
@@ -7,16 +11,39 @@ body {
     padding: 0;
 }
 
+/* Gold Text */
+.gold-text {
+    color: var(--gold);
+}
+
+/* Buttons */
+.btn {
+    background-color: var(--gold);
+    border: 2px solid var(--gold);
+    color: #fff;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #000;
+    color: var(--gold);
+}
+
 /* Header */
 header {
     background-color: #000000;
     padding: 20px;
     text-align: center;
-    border-bottom: 3px solid rgb(23, 8, 71);
+    border-bottom: 3px solid #F57C00;
 }
 
 header h1 {
-    color: gold;
+    color: #F57C00;
     margin: 0;
 }
 
@@ -44,11 +71,11 @@ nav ul li a {
 
 #hero h2 {
     font-size: 2.5em;
-    color: gold;
+    color: #F57C00;
 }
 
 .cta-button {
-    background-color: gold;
+    background-color: #F57C00;
     color: black;
     padding: 15px 30px;
     text-decoration: none;
@@ -72,7 +99,7 @@ nav ul li a {
 
 .service img {
     width: 100%;
-    border: 2px solid gold;
+    border: 2px solid #F57C00;
     border-radius: 5px;
 }
 
@@ -93,7 +120,7 @@ nav ul li a {
 .history-gallery img {
     width: 300px;
     height: auto;
-    border: 2px solid gold;
+    border: 2px solid #F57C00;
     border-radius: 5px;
 }
 
@@ -101,17 +128,17 @@ nav ul li a {
 #contact {
     text-align: center;
     padding: 40px 20px;
-    border-top: 3px solid gold;
+    border-top: 3px solid #F57C00;
 }
 
 #contact a {
-    color: gold;
+    color: #F57C00;
     text-decoration: none;
     font-weight: bold;
 }
 
 .social-links a {
-    color: gold;
+    color: #F57C00;
     text-decoration: none;
     margin: 0 10px;
 }
@@ -154,11 +181,7 @@ nav ul li a {
     text-align: center;
     margin-bottom: 20px;
     font-size: 2rem;
-    color: #333;
-}
-
-.gold-text {
-    color: #d4af37;
+    color: var(--gold);
 }
 
 .section-subtitle {
@@ -205,9 +228,9 @@ nav ul li a {
 .more-projects-container .btn {
     display: inline-block;
     padding: 12px 30px;
-    background-color: transparent;
-    border: 2px solid var(--black);
-    color: var(--black);
+    background-color: #F57C00;
+    border: 2px solid #F57C00;
+    color: #fff;
     border-radius: 4px;
     font-size: 16px;
     font-weight: 500;
@@ -226,7 +249,7 @@ nav ul li a {
     text-align: center;
     padding: 50px 20px;
     background-color: #f9f9f9;
-    border-top: 3px solid #d4af37;
+    border-top: 3px solid #F57C00;
 }
 
 .whatsapp-section .section-title {
@@ -267,4 +290,8 @@ nav ul li a {
 
 .portfolio-item:hover .portfolio-image {
     transform: scale(1.1); /* Adds a zoom effect on hover */
+}
+
+.portfolio-overlay {
+    background-color: rgba(245, 124, 0, 0.8); /* Semi-transparent gold */
 }
